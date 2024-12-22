@@ -9,3 +9,9 @@ pip install -qU langchain-openai
 
 ```
 
+Make sure OpenSSL is up to date so you can download the models / integrations from 
+```
+brew update
+brew upgrade openssl
+brew install openssl
+```
